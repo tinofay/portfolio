@@ -1,13 +1,14 @@
 import React from "react";
 
-import html from "../assets/html.png";
-import css from "../assets/css.png";
-import javascript from "../assets/javascript.png";
-import reactImage from "../assets/react.png";
-import java from "../assets/Java2.png";
-import spring from "../assets/Spring3.png";
-import github from "../assets/github.png";
-import tailwind from "../assets/tailwind.png";
+import html from "../assets/icons/html.png";
+import css from "../assets/icons/css.png";
+import javascript from "../assets/icons/javascript.png";
+import reactImage from "../assets/icons/react.png";
+import java from "../assets/icons/Java2.png";
+import spring from "../assets/icons/Spring3.png";
+import github from "../assets/icons/github.png";
+import tailwind from "../assets/icons/tailwind.png";
+import python from "../assets/icons/python.png"
 
 const Experience = () => {
   const techs = [
@@ -58,6 +59,12 @@ const Experience = () => {
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
+    },
+    {
+      id: 9,
+      src: python,
+      title: "Python",
+      style: "shadow-yellow-400",
     },
   ];
 
