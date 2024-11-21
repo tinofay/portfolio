@@ -17,6 +17,10 @@ const About = () => {
           I'm a web developer who loves creating smooth, intuitive digital experiences.
           On the frontend, I work with JavaScript, React, and Tailwind CSS to build interfaces that feel natural and engaging.
           On the backend, I use Java, Python, and frameworks like Spring Boot and Django to ensure everything runs seamlessly.
+        </p>
+        <br />
+
+        <p className="text-xl">
           What gets me excited is turning interesting ideas into polished web applications that people genuinely enjoy using.
           While I'm passionate about writing clean code, I believe the best solutions come from understanding how people actually interact with technology.
           That's why I focus on blending thoughtful design with solid technical implementation.
