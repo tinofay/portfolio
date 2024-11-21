@@ -21,10 +21,11 @@ const Contact = () => {
             className=" flex flex-col w-full md:w-1/2"
           >
             <input
-              type="text"
+              type="email"
               name="name"
               placeholder="Enter your name"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              pattern="[A-Za-z\s]{1,50}"
               required
             />
             <input
