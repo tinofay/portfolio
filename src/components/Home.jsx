@@ -42,6 +42,9 @@ const Home = () => {
               <img
                   src={HeroImage}
                   alt="my profile"
+                  onContextMenu={(event) => event.preventDefault()}
+                  onDragStart={event => event.preventDefault()}
+                  draggable="false"
                   className="rounded-lg mx-auto w-full shadow-[0px_8px_15px_rgba(0,0,0,0.3),0px_4px_8px_rgba(255,255,255,0.1)] hover:shadow-[0px_12px_25px_rgba(0,0,0,0.4),0px_6px_10px_rgba(255,255,255,0.15)] transition-shadow duration-300 ease-in-out"
               />
             </div>
