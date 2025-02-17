@@ -28,7 +28,7 @@ const Home = () => {
                         </p>
 
                         <h4 className="text-4xl sm:text-6xl font-bold text-white leading-tight font-sans">
-                            Full Stack Developer
+                            Software Developer
                         </h4>
                         <p className="text-gray-400 font-medium text-base sm:text-lg py-4 leading-relaxed max-w-md md:max-w-none">
                             I bring a touch of elegance to the digital world, building and
