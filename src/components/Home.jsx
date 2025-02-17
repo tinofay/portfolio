@@ -33,7 +33,7 @@ const Home = () => {
                         <p className="text-gray-400 font-medium text-base sm:text-lg py-4 leading-relaxed max-w-md md:max-w-none">
                             I bring a touch of elegance to the digital world, building and
                             designing scalable web applications. My go-to tools include React
-                            and Tailwind for frontend, while Java and Spring Boot power up
+                            and Tailwind for frontend, while Python and Django or Java and Spring Boot power up
                             the backend. Let's create something beautiful together!
                         </p>
 
