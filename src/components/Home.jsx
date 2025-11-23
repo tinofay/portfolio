@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 import { FaLightbulb, FaCode, FaRocket } from "react-icons/fa";
 import "../styles/header.css"
 
-const roles = ["Product Owner", "Software Developer", "Problem Solver", "Product Strategist"];
+const roles = ["Product Owner", "Software Developer", "Product Strategist"];
 
 const Home = () => {
     const [typedText, setTypedText] = useState("");
@@ -15,7 +15,7 @@ const Home = () => {
 
     // Typing animation effect
     useEffect(() => {
-        const currentRole = roles[roleIndex];
+        const currentRole = roles[roleIndex] || roles[0];
         const timeout = setTimeout(() => {
             if (!isDeleting) {
                 if (typedText.length < currentRole.length) {
