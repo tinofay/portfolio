@@ -4,14 +4,15 @@ const Contact = () => {
   return (
     <div
       name="contact"
+      id="contact"
       className="w-full min-h-screen bg-gradient-to-b from-black to-violet-950 p-4 text-white"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
-        <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+        <div className="pb-8 text-center">
+          <p className="text-4xl font-bold inline">
             Contact
           </p>
-          <p className="py-6">Submit the form below to get in touch with me</p>
+          <p className="py-6 text-gray-400">Let's discuss your product vision or development needs</p>
         </div>
 
         <div className=" flex justify-center items-center">
@@ -21,7 +22,7 @@ const Contact = () => {
             className=" flex flex-col w-full md:w-1/2"
           >
             <input
-              type="email"
+              type="text"
               name="name"
               placeholder="Enter your name"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
@@ -29,7 +30,7 @@ const Contact = () => {
               required
             />
             <input
-              type="text"
+              type="email"
               name="email"
               placeholder="Enter your email"
               className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
